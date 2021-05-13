@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.websocket {
+    display: flex;
+    width: 100%;
+    margin: 50px;
+
+    &__form {
+        padding: 40px;
+        width: 400px;
+        border-radius: 8px;
+        border: 2px solid seagreen;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__input {
+        min-width: 300px;
+        width: 100%;
+        padding: 5px 10px;
+        border: seagreen 1px solid;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__button {
+        margin-top: 15px;
+        margin-left: auto;
+        border: seagreen 1px solid;
+        background: none;
+        padding: 10px 15px;
+        font-weight: bold;
+        color: seagreen;
+        cursor: pointer;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__message {
+        width: 400px;
+        border: 2px solid seagreen;
+        border-radius: 8px;
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    &__connect {
+        width: 400px;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
